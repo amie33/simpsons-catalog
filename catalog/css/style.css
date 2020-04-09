@@ -1,0 +1,294 @@
+/*style sheet for the kwiki mart*/
+*{
+	background-color: #FED90f;
+	margin: 0px;
+	padding: 0px;
+}
+.nope{
+	text-align: center;
+}
+.homey{
+	width: 350px;
+	height: 200px;
+}
+.nope{
+	padding: 20px;
+}
+.failed, .success{
+	text-align: center;
+	padding: 15px;
+}
+.des{
+	color: red;
+}
+.ralph{
+	width: 250px; 
+	height: 150px;
+}
+.excelent{
+	text-align: center;
+}
+.abepic{
+	text-align: center;
+	padding-top: 20px;
+}
+.burns{
+	width: 600px;
+	height: 400px;
+}
+.abe{
+	width: 230px;
+}
+.apu{
+	width: 500px;
+	height: 300px;
+}
+.mumu{
+	width: 220px;
+	height: 300px;
+	padding: 10px;
+}
+.divmumu{
+	text-align: right;
+	padding: 5px;
+}
+h3{
+	font-family: 'simpsonfontregular', Fallback, chiller;
+	padding-top: 20px;
+}
+.abepara{
+	font-size: 25px;
+}
+.purchase-order{
+	text-align: center;
+	padding: 50px;
+}
+.purchase-div{
+	width: 55%;
+	margin: 0 auto;
+}
+.cart-not-log{
+	text-align: center; 
+	padding: 25px;
+}
+.fland{
+	height: 250px;
+	padding: 10px;
+}
+.have-an-account{
+	padding: 25px;
+	text-align: center;
+}
+.krusty{
+	width: 600px;
+	height: 400px;
+	padding: 10px;
+}
+.update-cart{
+	width: 25%;
+}
+.back-to-cart{
+	text-align: center; 
+	padding: 10px;
+}
+.prods-display{
+	width: 50%;
+	margin: 0 auto;
+	padding: 15px;
+}
+.display{
+	font-family: 'simpsonfontregular', Fallback, chiller;
+	padding: 35px; 
+	width: 50%;
+	margin: 0 auto;
+}
+.fiximg{
+	text-align: center;
+}
+nav{
+	#overflow: hidden;
+	#position: fixed;
+	#top:0;
+	width: 100%;
+}
+a{
+	font-family: 'simpsonfontregular', Fallback, chiller;
+	text-decoration: none;
+	color: black;
+}
+a.view-details{
+	color: black;
+}
+a:hover{
+	background-color:#D6E69F;
+	color: green;
+}
+nav ul, nav a{
+	background-color: #70D1FE; 
+	margin: 0;
+	padding: 5px;
+	font-family: 'simpsonfontregular', Fallback, chiller;
+}
+
+nav ul li, nav ul li a{
+	display: inline-block;
+}
+.current{
+	background-color: #7BC242;
+	color: white;
+}
+nav ul li a{
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 20px;
+}
+li a:hover {
+	background-color: #F65132;
+	color: gold;
+}
+.empty-cart{
+	margin: 0 auto;
+	text-align: center;
+}
+.catalog-headdiv{
+	
+	padding: 35px;
+}
+h1{
+	color: #F65132;
+	padding-top: 95px;
+	text-align: center;
+	font-family: 'simpsonfontregular', Fallback, chiller;
+}
+h2{
+	text-align: center;
+	font-family: 'simpsonfontregular', Fallback, chiller;
+	padding-bottom: 35px;
+	color: #F65132;
+}
+img{
+	height: 175px; 
+	width:225px;
+}
+.create-div{
+	padding: 30px;
+}
+.table-wrapper{
+	#border: 2px solid green;
+	padding: 30px;
+}
+table{
+	#border: 2px dashed red;
+	margin: 0 auto;
+}
+th, td{
+	border: 2px solid #D6E69F;
+	padding: 10px;
+	font-family: 'simpsonfontregular', Fallback, chiller;
+}
+td{
+	text-align: center;
+	font-family: 'simpsonfontregular', Fallback, chiller;
+}
+.descrip{
+	font-size: 20px;
+}
+.login-form-wrapper {
+	border: 3px solid #D6E69F;
+	padding: 30px;
+	width: 50%;
+	margin: 0 auto;
+}
+.add-to-cart{
+	background-color: red;
+}
+input[type=text], input[type=password], input[type=submit], input[type=reset]{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	font-family: 'simpsonfontregular', Fallback, chiller;
+	color: red;
+	background-color: #D6E69F;
+}
+.login, .submit, .reset{
+	background-color: #D6E69F;
+	color: #2f64d6;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	font-family: 'simpsonfontregular', Fallback, chiller;
+}
+label{
+	font-family: 'simpsonfontregular', Fallback, chiller;
+	color: #4CAF50
+}
+button:hover {
+	opacity: 0.8;
+}
+.create-form-wrapper{
+	margin: 0 auto;
+	padding: 50px;
+	width: 50%;
+	border: 3px solid #D6E69F;
+}
+.create-div{
+	text-align: center;
+}
+.fail{
+	text-decoration: none;
+}
+p
+{
+	font-family: 'simpsonfontregular', Fallback, chiller;
+	font-size: 30px;
+}
+.view-details{
+	font-family: 'simpsonfontregular', Fallback, chiller;
+	text-decoration: none;
+}
+
+#theMess {
+	display:none;
+}
+#theMess p {
+	padding: 10px 35px;
+	font-size: 18px;
+}
+.theMess{
+	margin: 10px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+	color: green;
+}
+.invalid{
+	color: red;
+}
+button{
+	font-family: 'simpsonfontregular', Fallback, chiller;
+}
+number{
+	font-family: 'simpsonfontregular', Fallback, chiller;
+}
+/*I wanted custom font, all you have to do is download it and pull the font into a folder i called fonts and find the file path and added it to my code BAM!*/
+@font-face {
+    font-family: 'simpsonfontregular';
+    src: url('../font/simpsonfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
